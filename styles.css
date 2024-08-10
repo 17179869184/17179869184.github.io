@@ -8,6 +8,10 @@ body, html {
     background-color: #f0f0f0;
 }
 
+.big_paragraph {
+    style="font-size:34px";
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(8, 50px); /* Adjust this for the number of columns */
