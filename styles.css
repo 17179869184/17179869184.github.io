@@ -2,6 +2,11 @@
     color: white;
     font-size:34px;
 }
+
+p {
+    color: white;
+}
+
 body {
     background-color: #222222;
 }
