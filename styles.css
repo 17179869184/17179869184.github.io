@@ -1,3 +1,7 @@
 .big_paragraph {
+    color: black;
     font-size:34px;
+}
+body {
+    background-color: #222222;
 }
