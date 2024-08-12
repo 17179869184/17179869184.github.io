@@ -22,5 +22,5 @@ let binary = Array(32).fill(0);
 
     function update() {
         const decimal = binaryToDecimal(binary);
-        document.getElementById('result').textContent = decimal;
+        document.getElementById('result').textContent = decimal.toLocaleString('fullwide', {useGrouping: false});;
     };
