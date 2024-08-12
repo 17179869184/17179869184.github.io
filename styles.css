@@ -11,3 +11,35 @@ a, p, div {
 body {
     background-color: #222222;
 }
+
+#colorHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#colorDisplay {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#colorInfo {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#rgbSliders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#redSlider, #greenSlider, #blueSlider {
+    width: 200px;
+    margin-bottom: 10px;
+}
